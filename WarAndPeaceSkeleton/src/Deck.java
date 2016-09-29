@@ -1,11 +1,11 @@
 //import javax.smartcardio.Card;
+import java.util.*
+
 
 public class Deck {
 
-	
 	private Card a;
-
-		
+	
 	public deck() {
 		
 		Set<Card> deck;
