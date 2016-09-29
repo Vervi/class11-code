@@ -24,8 +24,6 @@ public class Card {
 			// TODO: complete this method definition
 	}
 	
-	public card() {
 	
-	}
 	
 }

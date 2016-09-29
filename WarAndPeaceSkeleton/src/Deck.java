@@ -1,11 +1,24 @@
-
+import javax.smartcardio.Card;
 
 public class Deck {
 
-	public Deck() {
-		//fill deck 4 suits 13 nums
-		//container type...
-		Set<CardSuit,> deck
+	
+	Card a;
+
+		
+	publCardeck() {
+		
+		Set<Card> deck;
+		for(CardValue n: CardValue.values())
+		{
+			a.CardValue= n;
+			for(CardSuit s: CardSuit.values())
+			{
+				a.CardSuit =s;
+				deck.add(a);
+			}
+		}
+		
 		
 	}
 
