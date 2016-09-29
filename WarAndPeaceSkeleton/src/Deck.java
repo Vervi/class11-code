@@ -1,4 +1,4 @@
-import javax.smartcardio.Card;
+//import javax.smartcardio.Card;
 
 public class Deck {
 
@@ -18,8 +18,7 @@ public class Deck {
 				deck.add(a);
 			}
 		}
-		
-		
+				
 	}
 
 	public Card draw() {
