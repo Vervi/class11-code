@@ -12,6 +12,10 @@ public class MainDriver {
 		
 		// TODO: gameplay
 		
+		//while counter is less than 52, draw from each deck,
+		//if p1 card>p2 p1score++ else p2 score++ unless it is a tie in which case move to next draw
+		//display final score
+		
 		System.out.printf("Final score: Player 1--%d; Player 2--%d", player1Score, player2Score);
 		
 		
