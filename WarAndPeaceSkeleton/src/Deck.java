@@ -3,10 +3,10 @@ import javax.smartcardio.Card;
 public class Deck {
 
 	
-	Card a;
+	private Card a;
 
 		
-	publCardeck() {
+	public deck() {
 		
 		Set<Card> deck;
 		for(CardValue n: CardValue.values())
