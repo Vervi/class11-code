@@ -1,4 +1,4 @@
-import javax.smartcardio.Card;
+import java.lang.Enum.*;
 
 
 public class Card {
@@ -8,15 +8,18 @@ public class Card {
 	
 	
 	public String toString() {
-		//TODO: complete this method definition
-		
-		return value + " of " suit;
-		
-	}
+				
+		return value + " of " + suit;
+		}
 	
 
 	public boolean winner(Card c) {
-			// TODO: complete this method definition
+			// this assumes that the game is running up town
+		
+		
+		
+		
+		
 	}
 	
 	
