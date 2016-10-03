@@ -13,33 +13,42 @@ public class Card {
 		}
 	
 
-	public boolean winner(Card c) {
+	public Boolean winner(Card c) {
 			// this assumes that the game is running up town
+		
+		
+		
+		Boolean win = Boolean.TRUE;
+		Boolean loss = Boolean.FALSE;
+		Boolean tie= null;
+		
 		if ((this.value).compareTo(c.value)== 0)	// in case of a tie in numeric value
 		{
 			if ((this.suit).compareTo(c.suit)== 0) //nobody wins
 			{
-				return null;
+				
+				return tie;
 			}
 			if ((this.suit).compareTo(c.suit)> 0)
 			{
-				return true;
+				return win;
 			}
 			if ((this.suit).compareTo(c.suit) < 0)
 			{
-				return false;
+				return loss;
 			}
 			
 		}
-		if ((this.value).compareTo(c.value) > 0)
+		else if ((this.value).compareTo(c.value) > 0)
 		{
-			return true;
+			return win;
 		}
 	
-		if ((this.value).compareTo(c.value) < 0)
+		else if ((this.value).compareTo(c.value) < 0)
 		{
-			return false;
+			return loss;
 		}
+		return tie;
 		
 		
 	}

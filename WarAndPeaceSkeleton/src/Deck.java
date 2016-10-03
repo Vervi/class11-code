@@ -17,16 +17,12 @@ public Deck() {
 		{
 			for(CardValue n: CardValue.values())
 
-			{
-			
+			{			
 				deck[i].value= n;
 
 				for(CardSuit s: CardSuit.values())
-
 				{
-
 					deck[i].suit =s;
-
 				}
 			}	
 				topCard=0; //index of card to dealt in deck array
@@ -38,10 +34,6 @@ public Deck() {
 		}
  
 }
-
-
-
-
 	public Card draw() {
 
 		//start at 52 count down random draw from deck
