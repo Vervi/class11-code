@@ -19,7 +19,6 @@ public deck() {
 
 		cardDeck = new Card [deckSize];
 			
-		/*
 		for (int i=0; i < deck Size; i++)
 		{
 			for(CardValue n: CardValue.values())
@@ -37,7 +36,7 @@ public deck() {
 			}
 		
 		}
-  */
+ 
 		
 
 		//can probably simplify this loop, might not even need the outer loop
