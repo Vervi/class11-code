@@ -6,6 +6,14 @@ public class Card {
 	CardValue value;
 	CardSuit suit;
 	
+	public Card(CardValue value, CardSuit suit)
+	{
+		this.value= value;
+		this.suit= suit;
+	
+	}
+	
+	
 	
 	public String toString() {
 				
