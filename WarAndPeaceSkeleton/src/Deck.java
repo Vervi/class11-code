@@ -2,30 +2,69 @@
 import java.util.*
 
 
+
 public class Deck {
 
-	private Card a;
 	
-	public deck() {
+
+
+
+		Private Card[] deck;
+	
+	
+		Private int deckSize=52;
 		
-		Set<Card> deck;
-		for(CardValue n: CardValue.values())
+public deck() {
+		
+
+		cardDeck = new Card [deckSize];
+			
+		/*
+		for (int i=0; i < deck Size; i++)
 		{
-			a.CardValue= n;
-			for(CardSuit s: CardSuit.values())
+			for(CardValue n: CardValue.values())
+
 			{
-				a.CardSuit =s;
-				deck.add(a);
+			
+			 cardDeck[i].CardValue= n;
+
+				for(CardSuit s: CardSuit.values())
+
+				{
+
+				cardDeck[i].CardSuit =s;
+
 			}
+		
 		}
-				
+  */
+		
+
+		//can probably simplify this loop, might not even need the outer loop
+
+		int i=0;
+			for (CardValue v: CardValue.values())
+				for(CardSuit s: CardSuit.values())
+				cardDeck[i++] = new Card(v,s);
+			
+	
 	}
 
+
+
+
 	public Card draw() {
+
 		//start at 52 count down random draw from deck
 		
 
+
+
+
 	}
+
+
+
 
 
 }
