@@ -1,7 +1,6 @@
 import java.util.*;
 
 
-
 public class Deck {
 
 	private int deckSize=52;
