@@ -33,7 +33,7 @@ public class MainDriver {
 				{
 					player2Score++;
 					System.out.println(p2.toString() + " beats " + p1.toString());
-					System.out.println("Player 1 wins round: " + round);
+					System.out.println("Player 2 wins round: " + round);
 				}
 				else if(result == null)
 				{
