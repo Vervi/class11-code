@@ -28,6 +28,9 @@ public Deck() {
 			
 		}
  
+}
+
+
 public Card draw() {
 	
 	
