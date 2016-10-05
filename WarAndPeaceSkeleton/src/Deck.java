@@ -41,6 +41,5 @@ public Card draw() {
 			return null;
 
 	}
-	
-	
+		
 }

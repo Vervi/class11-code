@@ -8,8 +8,7 @@ public class MainDriver {
 		Deck player1 = new Deck();
 		Deck player2 = new Deck();
 		
-			
-		
+					
 		int player1Score = 0, player2Score = 0;
 		int round = 0;
 	

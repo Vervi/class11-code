@@ -12,8 +12,7 @@ public class Card {
 		this.suit= suit;
 	
 	}
-	
-	
+		
 	
 	public String toString() {
 				
